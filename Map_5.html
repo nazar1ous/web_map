@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_397135ecf327436c9705990078f215ef {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_397135ecf327436c9705990078f215ef" ></div>
+        
+</body>
+<script>    
+    
+            var map_397135ecf327436c9705990078f215ef = L.map(
+                "map_397135ecf327436c9705990078f215ef",
+                {
+                    center: [48.314775, 25.082925],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_80f65fc016344bba819bbb1de470cedd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_397135ecf327436c9705990078f215ef);
+        
+    
+            var feature_group_c2002b48724341e389017cd633667d0b = L.featureGroup(
+                {}
+            ).addTo(map_397135ecf327436c9705990078f215ef);
+        
+    
+            var marker_1a7ee966bdf84625a1011fcc085ca80e = L.marker(
+                [48.262023, 25.173841],
+                {}
+            ).addTo(feature_group_c2002b48724341e389017cd633667d0b);
+        
+    
+            var icon_6d96abbd08454e4a801515b3e817659b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a7ee966bdf84625a1011fcc085ca80e.setIcon(icon_6d96abbd08454e4a801515b3e817659b);
+        
+    
+        var popup_74f2f778dac44edb8a5084332d11a274 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42438a6d2c7e46d6820ec601368e4ae3 = $(`<div id="html_42438a6d2c7e46d6820ec601368e4ae3" style="width: 100.0%; height: 100.0%;">1900 рік</div>`)[0];
+            popup_74f2f778dac44edb8a5084332d11a274.setContent(html_42438a6d2c7e46d6820ec601368e4ae3);
+        
+
+        marker_1a7ee966bdf84625a1011fcc085ca80e.bindPopup(popup_74f2f778dac44edb8a5084332d11a274)
+        ;
+
+        
+    
+    
+            var marker_6a06d9dcad274e26a3cf6c1078cbcd0d = L.marker(
+                [48.282076, 25.1616],
+                {}
+            ).addTo(feature_group_c2002b48724341e389017cd633667d0b);
+        
+    
+            var icon_cf08a6ea900140c7a2959bc1c85d7aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a06d9dcad274e26a3cf6c1078cbcd0d.setIcon(icon_cf08a6ea900140c7a2959bc1c85d7aba);
+        
+    
+        var popup_4915e4ba932b414b9b8a35af7d6cf9c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1539b3a8980e4e3e91d3437ee0b561d6 = $(`<div id="html_1539b3a8980e4e3e91d3437ee0b561d6" style="width: 100.0%; height: 100.0%;">1900 рік</div>`)[0];
+            popup_4915e4ba932b414b9b8a35af7d6cf9c4.setContent(html_1539b3a8980e4e3e91d3437ee0b561d6);
+        
+
+        marker_6a06d9dcad274e26a3cf6c1078cbcd0d.bindPopup(popup_4915e4ba932b414b9b8a35af7d6cf9c4)
+        ;
+
+        
+    
+    
+            var marker_aac99996f611471890f94243ff9e6372 = L.marker(
+                [48.300325, 24.877719],
+                {}
+            ).addTo(feature_group_c2002b48724341e389017cd633667d0b);
+        
+    
+            var icon_c90325260eb145a89c4b36a4c52e8630 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aac99996f611471890f94243ff9e6372.setIcon(icon_c90325260eb145a89c4b36a4c52e8630);
+        
+    
+        var popup_8e37d70bd65d4117adb5421e3ffbd4f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85d986b0fec04c76bb827984041e5636 = $(`<div id="html_85d986b0fec04c76bb827984041e5636" style="width: 100.0%; height: 100.0%;">1900 рік</div>`)[0];
+            popup_8e37d70bd65d4117adb5421e3ffbd4f5.setContent(html_85d986b0fec04c76bb827984041e5636);
+        
+
+        marker_aac99996f611471890f94243ff9e6372.bindPopup(popup_8e37d70bd65d4117adb5421e3ffbd4f5)
+        ;
+
+        
+    
+</script>
