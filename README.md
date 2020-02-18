@@ -27,6 +27,8 @@ feel yourself during filming process.
 
 Samples of usage:
 
+![Sample of usage](https://github.com/nazar1ous/web_map/blob/master/map_testing_example_from_cms.png)
+
 
 
 
