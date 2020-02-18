@@ -1,4 +1,4 @@
-Description of module:
+## Description of module:
 
 Module is used for creating web map with 10 nearest filming locations to user, 
 depending on user's coordinates. All films are based on user's chosen year.
@@ -8,7 +8,7 @@ The info is based on 'locations.csv' - file with all filming location,
 coordinates of countries, 'city_coordinates' - file with coordinates of cities.
 As a result, user gets html file with web map.
 
-Description of generated html file structure:
+## Description of generated html file structure:
 ```
 <!DOCTYPE html>
 ```
@@ -42,13 +42,13 @@ contains style of tags, style info for a document
 ```
 defines a section(group of tags) in html file
 
-Brief conclusion:
+## Brief conclusion:
 
 The web map contains geolocation of 10 nearest markers, depending on
 user's input(coordination and films year). This information gives an opportunity to
 feel yourself during filming process.
 
-Samples of usage:
+## Samples of usage:
 
 ![Sample of usage](https://github.com/nazar1ous/web_map/blob/master/map_testing_example_from_cms.png)
 
