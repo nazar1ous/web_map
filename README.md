@@ -10,14 +10,14 @@ As a result, user gets html file with web map.
 
 Description of generated html file structure:
 
-"<!DOCTYPE html>" defines html file as HTML5 file
-"<link>" defines a link between html file and a external resource
-"<head>" defines a container with head elements
-"<body>" includes visual content of web map
-"<meta>" is used for metadata of document
-"<script>" contains user's script(as JavaScript)
-"<style>" contains style of tags, style info for a document
-"<div>" defines a section(group of tags) in html file
+#<!DOCTYPE html> defines html file as HTML5 file
+#<link> defines a link between html file and a external resource
+#<head> defines a container with head elements
+#<body> includes visual content of web map
+#<meta> is used for metadata of document
+#<script> contains user's script(as JavaScript)
+#<style> contains style of tags, style info for a document
+#<div> defines a section(group of tags) in html file
 
 Brief conclusion:
 
